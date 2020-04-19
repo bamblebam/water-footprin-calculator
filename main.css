@@ -7,51 +7,16 @@
 
 .container_1 {
     position: relative;
-    top: 75px;
-    right: 600px;
-    height: 329.5px;
-    width: 300px;
-}
-
-.container_2 {
-    position: relative;
-    width: 300px;
-    height: 329.5px;
-    bottom: 50px;
-    right: 185px;
-}
-
-.container_3 {
-    position: relative;
-    height: 329.5px;
-    width: 300px;
-    bottom: 590px;
-    left: 215px;
-}
-
-.container_4 {
-    position: relative;
-    width: 300px;
-    height: 329.5px;
-    bottom: 708px;
-    left: 600px;
-}
-
-.btn-container {
-    position: relative;
     width: 500px;
-    bottom: 700px;
-    left: 550px;
 }
 
 .container_result {
-    position: relative;
+    display: flex;
     width: 500px;
     justify-content: center;
     align-items: center;
     text-align: center;
     height: 200px;
-    top: 50px;
 }
 
 .jumbo-ctn {
@@ -71,9 +36,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
+body,
+html {
     background-image: url(https://rukminim1.flixcart.com/image/832/832/jmmce4w0/laptop-skin-decal/5/x/z/water-drop-exclusive-laptop-skin-sticker-decal-wallpaper-15-inch-original-imaf6bgwnkevy8a2.jpeg?q=70);
-    overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
 }

@@ -2,6 +2,7 @@
     session_start();
 ?>
 <?php 
+
  
     $q6a=0;
     $q8a=0;
@@ -19,13 +20,14 @@
    
     $total_unchanged=($q6a+$q8a);
     $total_pop=($_POST['q1a'] +$_POST['q2a']*0.75);
-    $total_outdoor=($_POST['q4a']*50 +$_POST['q2a']*0.5);
-    $total_personal=($_POST['q10a']+$_POST['q7a'])*$total_pop;
+    $total_outdoor=($_POST['q5a']*50 +$_POST['q4a']*0.5);
+    $total_personal=($_POST['q10a']+$_POST['q7a'])*$total_pop +$_POST['q11a'];
     $total_misc=($_POST['q3a']*2);
     $total_litres_perday=$total_personal+$total_outdoor+$total_unchanged+$total_misc;
     $total_m3_perday=$total_litres_perday/1000;
     $total_litres_peryear=$total_litres_perday*365;
     $total_m3_peryear=$total_m3_perday*365;
+   
 
 
 
@@ -57,9 +59,9 @@
 
     <div class="container-fluid main_container container_result">
        <h2 class='result'>
-       <br>
+       
             <?php
-                echo $total_m3_peryear .' m^3';
+                echo $total_m3_peryear . ' m^3';
             ?> 
        </h2>
 

@@ -21,7 +21,10 @@
 <body>
         
 <form action="results.php" method="POST">
+<br>
+<br>
     <div class="container-fluid main_container container_1">
+    <br>
         <div class='form-group'>
             <label for="q1a"><h4>Number of adults?</h4></label>
             <input class='form-control' type="number" name="q1a" id="q1a" required>
@@ -35,12 +38,7 @@
             <input class='form-control' type="number" name="q3a" id="q3a" required>
         </div>       
             
-            <br>
-    </div>
-
-    <div class="container-fluid container_2 main_container">
-        <br>
-        <br>
+    
         <div class='form-group'>
             <label for="q4a"><h4>Number of plants?</h4></label>
             <input class='form-control' type="number" name="q4a" id="q4a" required>  
@@ -57,9 +55,9 @@
             <input type="radio" name="q6a" value='NO' id="q6a2">
         </div>       
             
-    </div>
+ 
 
-    <div class="container-fluid main_container container_3">
+    
         <div class='form-group'>
             <label for="q7a"><h4>Number of times bath taken per day?</h4></label>
             <input class='form-control' type="number" name="q7a" id="q7a" required>     
@@ -80,11 +78,10 @@
             <label for="q9a2">NO</label>
             <input type="radio" name="q9a" value='NO' id="q9a2">
         </div>       
-    </div>
+   
 
-    <div class="container-fluid main_container container_4">
-    <br>
-    <br>
+    
+
         <div class='form-group'>
             <label for="q10a"><h4>Average water consumption for drinking purposes?</h4></label>
             <input class='form-control' type="number" name="q10a" id="q10a" required>
@@ -93,11 +90,14 @@
             <label for="q11a"><h4>Average water consumption for cooking purposes?</h4></label>
             <input class='form-control' type="number" name="q11a" id="q11a" required>
         </div>        
-    </div>
+    
 
-    <div class='btn-container'>
-        <input class='btn btn-info btn-sm btn-block' type="submit">     
+    
+        <input class='btn btn-info btn-sm btn-block' type="submit">    
+        <br> 
     </div>
+    <br>
+    <br>
 </form>               
         
 </body>
