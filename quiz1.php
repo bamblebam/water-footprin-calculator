@@ -26,27 +26,31 @@
     <div class="container-fluid main_container container_1">
     <br>
         <div class='form-group'>
-            <label for="q1a"><h4>Number of adults?</h4></label>
+            <label for="q1a"><h4>Number of adults</h4></label>
             <input class='form-control' type="number" name="q1a" id="q1a" required>
         </div>  
         <div class='form-group'>                    
-            <label for="q2a"><h4>Number of children?</h4></label>
+            <label for="q2a"><h4>Number of children</h4></label>
             <input class='form-control' type="number" name="q2a" id="q2a" required>
         </div>  
         <div class='form-group'>                    
-            <label for="q3a"><h4>Number of rooms in your house?</h4></label>
+            <label for="q3a"><h4>Number of rooms in your house</h4></label>
             <input class='form-control' type="number" name="q3a" id="q3a" required>
         </div>       
             
     
         <div class='form-group'>
-            <label for="q4a"><h4>Number of plants?</h4></label>
+            <label for="q4a"><h4>Number of potted plants</h4></label>
             <input class='form-control' type="number" name="q4a" id="q4a" required>  
         </div>  
         <div class='form-group'>                         
-            <label for="q5a"><h4>Number of vehicles?</h4></label>
+            <label for="q5a"><h4>Number of 4 wheeler vehicles</h4></label>
             <input class='form-control' type="number" name="q5a" id="q5a" required>
         </div>  
+        <div class='form-group'>                         
+            <label for="q12a"><h4>Number of 2 wheeler vehicles</h4></label>
+            <input class='form-control' type="number" name="q12a" id="q12a" required>
+        </div> 
         <div class='form-group'>                    
             <h4>Do you have a lawn?</h4>
             <label for="q6a1">YES</label>
@@ -63,6 +67,13 @@
             <input class='form-control' type="number" name="q7a" id="q7a" required>     
         </div>  
         <div class='form-group'>                    
+            <h4>Do you wash clothes at home?</h4>
+            <label for="q9a1">YES</label>
+            <input type="radio" name="q9a" value='YES' id="q9a1" required>
+            <label for="q9a2">NO</label>
+            <input type="radio" name="q9a" value='NO' id="q9a2">
+        </div> 
+        <div class='form-group'>                    
             <h4>Do you have a washing-machine?</h4>
             <label for="q8a1">YES semi-automatic</label>
             <input type="radio" name="q8a" value='YES_0.5' id="q8a1" required>
@@ -70,14 +81,7 @@
             <input type="radio" name="q8a" value='YES' id="q8a3" required>
             <label for="q8a2">NO</label>
             <input type="radio" name="q8a" value='NO' id="q8a2">  
-        </div>  
-        <div class='form-group'>                    
-            <h4>Do you wash clothes at home?</h4>
-            <label for="q9a1">YES</label>
-            <input type="radio" name="q9a" value='YES' id="q9a1" required>
-            <label for="q9a2">NO</label>
-            <input type="radio" name="q9a" value='NO' id="q9a2">
-        </div>       
+        </div>        
    
 
     

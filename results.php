@@ -20,7 +20,7 @@
    
     $total_unchanged=($q6a+$q8a);
     $total_pop=($_POST['q1a'] +$_POST['q2a']*0.75);
-    $total_outdoor=($_POST['q5a']*50 +$_POST['q4a']*0.5);
+    $total_outdoor=($_POST['q5a']*50 +$_POST['q4a']*0.5 +$_POST['q12a']*25);
     $total_personal=($_POST['q10a']+$_POST['q7a'])*$total_pop +$_POST['q11a'];
     $total_misc=($_POST['q3a']*2);
     $total_litres_perday=$total_personal+$total_outdoor+$total_unchanged+$total_misc;
